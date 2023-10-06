@@ -1,0 +1,204 @@
+*{
+    font-family: 'Arimo', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    gap: 350px;
+}
+
+div:nth-child(1) > section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+div:nth-child(1) article{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #7ED957;
+}
+
+div:nth-child(1) section:nth-child(1) span{
+    font-size: 45px;
+}
+
+div:nth-child(1) section:nth-child(2) span{
+    font-size: 25px;
+}
+
+.imgback{
+    position: absolute;
+    width: 100%;
+}
+
+.div2{
+    position: absolute;
+    top: 390px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 60px;
+}
+
+.div2 section{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.div2 section article{
+    display: flex;
+}
+
+.div2 section:nth-child(1) article:nth-child(1){
+    width: 450px;
+    justify-content: end;
+}
+
+.div2 section:nth-child(1) article:nth-child(2){
+    justify-content: end;
+}
+
+.div2 section:nth-child(1) article:nth-last-child(n + 1){
+    background-color: #00BF63;
+}
+
+.div2 section:nth-child(1) article:nth-child(n + 2){
+    width: 745px;
+    margin-left: 15px;
+}
+
+.div2 section:nth-child(1) article span{
+    font-weight: 600;
+    font-size: 45px;
+    color: white;
+    line-height: 60px;
+}
+
+.div2 section:nth-child(1) article:nth-child(1) span{
+    margin-right: 40px;
+}
+
+.div2 section:nth-child(1) article:nth-child(2) span{
+    letter-spacing: 1.5px;
+}
+
+.div2 section:nth-child(1) article:nth-child(3) span{
+    margin-left: 115px;
+}
+
+.div2 section:nth-child(2) article{
+    background: black;
+}
+
+.div2 section:nth-child(2) article:nth-child(1){
+    width: 710px;
+    margin-left: 15px;
+}
+.div2 section:nth-child(2) article:nth-child(2){
+    width: 515px;
+    margin-left: 30px;
+}
+
+.div2 section:nth-child(2) article span{
+    color: white;
+    margin-left: 95px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.div2 section:nth-child(2) article:nth-child(2) span{
+    margin-left: 80px;
+}
+
+.div3{
+    margin-top: 750px;
+    display:flex;
+    flex-direction: column;
+}
+
+.div3 > span{
+    margin-left: 135px;
+}
+
+.div3 > span:first-child{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.div3 > span:nth-child(2){
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.div3 div img{
+    width: 250px;
+    height: 250px;
+}
+
+.div3 div{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div3 div section{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.div3 div section div{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    justify-content: left;
+    margin-top: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.div3 div section div span span{
+    margin-right: 10px;
+    font-size: 35px;
+}
+
+.texto{
+    font-weight: 500;
+}
+
+.texto1{
+    font-size: 14px;
+}
+
+footer{
+    margin-top: 50px;
+    background: #00BF63;
+    width: 92%;
+    height: 80px;    
+    margin-left: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+footer span{
+    font-size: 23px;
+    color: white;
+}
